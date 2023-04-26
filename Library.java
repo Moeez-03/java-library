@@ -74,8 +74,6 @@ public class Library {
         Library library = new Library("books.txt");
         library.loadBooks();
         System.out.println("Library loaded successfully.");
-        
-        public Book(String title, String author, String year, String publisher, String isbn);
 
         Book book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "1925", "Scribner", "978-3-16-148410-0");
         Book book2 = new Book("To Kill a Mockingbird", "Harper Lee", "1960", "J. B. Lippincott & Co.",
@@ -95,6 +93,7 @@ public class Library {
         }
     }
 }
+
 class Book {
     private String title;
     private String author;
